@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+<servlet-name>Third</servlet-name>
+<servlet-class>com.nt.test.ThirdServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Third</servlet-name>
+<url-pattern>/xyz</url-pattern>
+</servlet-mapping>
+
+</web-app>
